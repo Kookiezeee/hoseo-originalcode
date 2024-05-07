@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai&display=swap');
+body {
+    font-family: 'Product Sans','Noto Sans Thai';
+    width: 100vw;
+    height: 100vh;
+}
+.brandingsocoolla {
+    margin-top: 20vh;
+    z-index: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+.outline {
+    color: white;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    transition: 0.3s;
+}
+.outline:hover {
+    transition: 0.3s;
+    color: black;
+}
+
+.bigbranding {
+    font-size: 200px;
+}
+.underline {
+    text-decoration: underline;
+}
+.cad {
+    transition: 0.3s;
+}
+.brandingsocoollath {
+    margin-top: 5vh;
+    z-index: 0;
+    width: 100%;
+    height: 100vh;
+}
+.link a, .link span {
+    color: gray;
+    letter-spacing: 12px;
+    transition: 0.3s;
+    text-transform: uppercase;
+}
+.link a:hover{
+    transition: 0.3s;
+    color: black;
+    letter-spacing: 0;
+    font-size: 24px;
+    text-transform: none;
+}
+.funny {
+    font-size: 24px;
+    color: white;
+    transition: 0.2s;
+}
+.funny:hover {
+    transition: 0.2s;
+    color: red;
+    font-size: 48px;
+}
+.cool {
+    color: black;
+    transition: 0.3s;
+}
+.cool:hover {
+    color: gray;
+    transition: 0.3s;
+}
+.contactcard {
+    margin-left: 15px;
+    width: 90%;
+    background-color: #f2f2f2;
+    padding: 40px 30px 60px;
+    border-radius: 1.25rem;
+    text-align: center;
+}
+.contactcard img {
+    margin-bottom: 10px;
+}
+footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 20px 45px ;
+    color: white;
+    background-color: black;
+}
+footer a {
+    color: white;
+}
+footer a.link, footer a.link:hover {
+    font-size: 24px;
+    color: white;
+}
+.outline_white {
+    -webkit-text-stroke-width: 1.25px;
+    -webkit-text-stroke-color: white;
+    color: black;
+    transition: 0.3s;
+}
+.outline_white:hover {
+    color: white;
+    transition: 0.3s;
+}
+.subtitle {
+    font-size: 48px;
+}
+@media (width >= 300px) {
+    .brandingsocoollath {
+        margin: 0;
+        height: 100%;
+    }
+    .subtitle {
+        font-size: 24px;
+    }
+    .link a {
+        letter-spacing: 2px;
+    }
+}
+@media (width >= 800px) {
+    .brandingsocoollath {
+        margin-top: 2vh;
+        height: 100%;
+    }
+    .subtitle {
+        font-size: 36px;
+    }
+    .link a {
+        letter-spacing: 4px;
+    }
+}
+@media (width >= 1366px) {
+    .brandingsocoollath {
+        margin-top: 3vh;
+        z-index: 0;
+        width: 90%;
+        height: 100vh;
+    }
+    .subtitle {
+        font-size: 48px;
+    }
+    .link a {
+        letter-spacing: 12px;
+    }
+    section {
+        height: 100vh;
+    }
+}
+.select a, .select span {
+    color: black;
+    transition: 0.3s;
+}
+.select a:hover {
+    color: gray;
+    transition: 0.3s;
+}
+.links {
+    transition: 0.3s;
+    margin-top: 170px;
+}
+.links a img {
+    border-radius: 20%;
+    transition: 0.2s;
+}
+.links a img:hover {
+    width: 100%;
+    border-radius: 20%;
+    transition: 0.2s;
+}
+.cool-footer {
+    color: white;
+    transition: 0.3s;
+}
+.cool-footer:hover {
+    transition: 0.3s;
+    color: gray;
+}
+.text {
+    display: inline;
+}
